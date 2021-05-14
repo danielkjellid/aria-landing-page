@@ -73,7 +73,7 @@ export default {
           thumbnail_500x305: require('@/assets/images/collections/le-reverse/500x305.jpg'),
           thumbnail_660x400: require('@/assets/images/collections/le-reverse/660x400.jpg'),
           thumbnail_850x520: require('@/assets/images/collections/le-reverse/850x520.jpg'),
-          display_link: false
+          display_link: true
       }, {
           id: 2,
           name: "Samme flis ute og inne",
@@ -81,7 +81,7 @@ export default {
           thumbnail_500x305: require('@/assets/images/collections/teknostone/500x305.jpg'),
           thumbnail_660x400: require('@/assets/images/collections/teknostone/660x400.jpg'),
           thumbnail_850x520: require('@/assets/images/collections/teknostone/850x520.jpg'),
-          display_link: false
+          display_link: true
       }, {
           id: 3,
           name: "Utefliser i tre-look",
@@ -89,7 +89,7 @@ export default {
           thumbnail_500x305: require('@/assets/images/collections/treflis/500x305.jpg'),
           thumbnail_660x400: require('@/assets/images/collections/treflis/660x400.jpg'),
           thumbnail_850x520: require('@/assets/images/collections/treflis/850x520.jpg'),
-          display_link: false
+          display_link: true
       }, {
           id: 4,
           name: "Utefliser for alle underlag",
@@ -97,7 +97,7 @@ export default {
           thumbnail_500x305: require('@/assets/images/collections/legging/500x305.jpg'),
           thumbnail_660x400: require('@/assets/images/collections/legging/660x400.jpg'),
           thumbnail_850x520: require('@/assets/images/collections/legging/850x520.jpg'),
-          display_link: false
+          display_link: true
       }, {
           id: 4,
           name: "Nytt bad",
@@ -105,7 +105,7 @@ export default {
           thumbnail_500x305: require('@/assets/images/collections/dolcevita/500x305.jpg'),
           thumbnail_660x400: require('@/assets/images/collections/dolcevita/660x400.jpg'),
           thumbnail_850x520: require('@/assets/images/collections/dolcevita/850x520.jpg'),
-          display_link: false
+          display_link: true
       }]
     }
   },

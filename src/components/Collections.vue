@@ -37,7 +37,7 @@
             </div>
           </div>
         </div>
-        <a v-if="collection.display_link" :href="`mailto:@bella@bella.no?subject=Interessert i ${collection.name}`" class="hover:underline lg:block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 focus:border-transparent hidden mt-4 text-base rounded-sm appearance-none">Les mer →</a>
+        <a v-if="collection.display_link" href="https://bella.no" class="hover:underline lg:block focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 focus:border-transparent hidden mt-4 text-base rounded-sm appearance-none">Les mer →</a>
       </div>
     </div>
   </section>
