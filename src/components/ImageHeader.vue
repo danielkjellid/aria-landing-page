@@ -14,6 +14,7 @@
                     ${object.image_2560x940} 2560w,
                     ${object.image_3072x940} 3072w`"
         >
+        <div class="opacity-20 absolute inset-0 bg-black" />
         <div class="absolute bottom-0 left-0 right-0 flex items-center justify-center h-full px-4">
           <div class="text-center">
             <slot>
@@ -22,8 +23,8 @@
           </div>
         </div>
         <div class="absolute bottom-0 left-0 right-0 mb-8 text-center">
-          <button @click="navigateToContent" class="appearance-none text-gray-300 hover:text-gray-400">
-            <svg class="h-12 w-12 animate-bounce-slow text-white hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <button @click="navigateToContent" class="hover:text-gray-400 text-gray-300 appearance-none">
+            <svg class="animate-bounce-slow hover:text-gray-300 w-12 h-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 9l-7 7-7-7" />
             </svg>
           </button>
